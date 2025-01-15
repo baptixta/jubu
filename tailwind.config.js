@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "black": "var(--black)",
+        "white": "var(--white)",
+        "green": "var(--green)",
+        "pink": "var(--pink)",
+        "orange": "var(--orange)",
+        "yellow": "var(--yellow)"
+      }
+    },
   },
   plugins: [],
 }
