@@ -9,70 +9,78 @@
     <meta name="description" content="Portfólio de Julia Bulhões, profissional de audiovisual e coordenadora de pós-produção. Experiência em produção, coloração, edição e gerenciamento de equipes criativas.">
 </head>
 <body>
-    <nav class="fixed">
-        <ul>
-            <li>Demo Reel</li>
-            <li>Projetos</li>
-            <li>Sobre Mim</li>
-            <li>Contato</li>
-        </ul>
+    <div class="cursor-pointer menu-responsive">
+      <div class="bg-orange z-40 h-1.5 w-8 fixed left-8 top-8"></div>
+      <div class="bg-orange z-40 h-1.5 w-8 fixed left-8 top-10"></div>
+      <div class="bg-orange z-40 h-1.5 w-8 fixed left-8 top-12"></div>
+    </div>
+
+    <nav class="transition-all ease-in-out duration-700 fixed bg-black shadow-md text-4xl text-white z-50 flex justify-center items-center items-center p-8 ml-5 mt-2 rounded-lg -left-80">     
+        <div class="cursor-pointer absolute text-lg font-bold syne top-2 right-2 bg-orange px-2 rounded-md close-menu">X</div>   
+
+        <ul class="syne font-bold text-lg">
+            <a class="hover:text-orange transition" href="#demo-reel"><li class="mb-4 mt-8">Demo Reel</li></a>
+            <a class="hover:text-orange transition" href="#projects"><li class="mb-4">Projetos</li></a>
+            <a class="hover:text-orange transition" href="#about"><li class="mb-4">Sobre Mim</li></a>
+            <a class="hover:text-orange transition" href="#contact"><li class="mb-4">Contato</li></a>
+        </ul>        
     </nav>
 
-    <section id="hero" class="flex flex-col justify-center items-center bg-black h-dvh playfair">
-        <h1 class="text-white text-4xl">coordenora de pós</h1>
-        <h2 class="text-white text-4xl">editora</h2>
-        <h2 class="text-white text-4xl">produtora</h2>
-        <h2 class="text-white text-4xl">colorista</h2>
-        <img class="absolute bottom-8 left-12" src="/img/location.png" alt="Tape escrito São Paulo // SP">
-        <a href="#demo-reel"><img class="absolute bottom-8 animate-bounce" src="/img/arrow.png" alt="Seta branca apontando para baixo"></a>
-        
-        <div class="absolute right-8">
-            <a class="ease-in-out duration-300" href="https://www.behance.net/jubulhoes" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4" src="/img/icons/behance.png" alt="Ícone do Behance"></a>
-            <a href="https://www.linkedin.com/in/j%C3%BAliabulh%C3%B5es/" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4" src="/img/icons/linkedin.png" alt="Ícone do Linkedin"></a>
-            <a href="https://www.instagram.com/jubu.mp4/" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4" src="/img/icons/instagram.png" alt="Ícone do Instagram"></a>
-            <a href="https://www.tiktok.com/@jubu.mp4?lang=pt-BR" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4" src="/img/icons/tiktok.png" alt="Ícone do Tiktok"></a>
-        </div>
+    <section id="hero" class="flex flex-col justify-center items-center bg-black h-dvh playfair relative">
+      <img class="" src="/img/jubu-resize.gif" alt="jubu logo">
+      <h1 class="text-white text-4xl">coordenadora de pós</h1>
+      <h2 class="text-white text-4xl">editora</h2>
+      <h2 class="text-white text-4xl">produtora</h2>
+      <h2 class="text-white text-4xl">colorista</h2>
+      <img class="absolute bottom-8 left-12" src="/img/location.png" alt="Tape escrito São Paulo // SP">
+      <a href="#demo-reel"><img class="absolute bottom-8 animate-bounce" src="/img/arrow.png" alt="Seta branca apontando para baixo"></a>
+      
+      <div class="absolute right-8">
+          <a class="ease-in-out duration-300" href="https://www.behance.net/jubulhoes" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/behance.png" alt="Ícone do Behance"></a>
+          <a href="https://www.linkedin.com/in/j%C3%BAliabulh%C3%B5es/" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/linkedin.png" alt="Ícone do Linkedin"></a>
+          <a href="https://www.instagram.com/jubu.mp4/" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/instagram.png" alt="Ícone do Instagram"></a>
+          <a href="https://www.tiktok.com/@jubu.mp4?lang=pt-BR" target="_blank" rel="noopener noreferrer"><img class="w-8 pb-4 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/tiktok.png" alt="Ícone do Tiktok"></a>
+      </div>
     </section>
 
     <section id="demo-reel">
         <iframe width="100%" height="920" src="https://www.youtube.com/embed/8cCU_rLhNFM?si=1ySjUpgfsX3lzcVL&amp;controls=0?&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
 
-    <section id="projects" class="flex justify-center bg-yellow min-h-screen">
-        <div class="min-h-screen">
-            <div class="max-w-full mx-auto pt-32">
-              <div class="p-2 md:p-4 columns-2 md:columns-2 lg:columns-3 gap-4">
-                <div class="break-inside-avoid">
-                  <div class="flex flex-col relative">
-                    <div class="w-full">
-                      <img src="/img/project-thumbs/pthumb_christian.png" alt="Foto de Christian Dunker">
-                    </div>
-                    <div class="absolute left-0 bottom-2">
-                      <img src="/img/project-thumbs/tape-christian.png" alt="Tape escrito Christian Dunker">
-                    </div>
-                  </div>
-                </div>
-                <div class="break-inside-avoid">
-                    <div class="flex flex-col relative">
-                      <div class="w-full">
-                        <img src="/img/project-thumbs/pthumb_baptixta.png" alt="Foto de Christian Dunker">
-                      </div>
-                      <div class="absolute left-0 bottom-2">
-                        <img src="/img/project-thumbs/tape-christian.png" alt="Tape escrito Christian Dunker">
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <section id="projects" class="flex items-center justify-center bg-yellow min-h-screen py-32">
+      <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-5 space-y-4 p-5">
+        <div>
+          <a href="/dist/projeto.html">
+            <img class="hover: hover:ease-in-out hover:duration-800 transition" src="/img/project-thumbs/pthumb_christian.png" alt="img">
+          </a>
+        </div>
+
+        <div>
+          <img src="/img/project-thumbs/pthumb_baptixta.png" alt="img">
+        </div>        
+
+        <div>
+          <img src="/img/project-thumbs/pthumb_instituto-alana.png" alt="img">
+        </div>              
+
+        <div>
+          <img src="/img/project-thumbs/pthumb_tvcultura.png" alt="img">
+        </div>
+
+        <div>
+          <img src="/img/project-thumbs/pthumb_instituto-cea.png" alt="img">
+        </div>
+      </div>
     </section>
 
-    <section id="about" class="min-h-screen bg-white">
-      <div class="p-12 pt-32 flex">
-        <div class="relative">
-          <img src="/img/jubu-portrait.png" alt="Foto de Júlia Bulhões">
-          <img class="absolute -left-12 bottom-36" src="/img/jubu-tape.png" alt="Tape com o nome de Júlia Bulhões escrito">         
-          <div class="text-xl mt-20 playfair">
+    <section id="about" class="bg-white">
+      <div class="flex flex-col p-8 lg:p-12 py-32 lg:flex-row items-center">
+        <div>
+          <div class="relative">
+            <img src="/img/jubu-portrait.png" alt="Foto de Júlia Bulhões">
+            <img class="absolute -left-12 -bottom-16" src="/img/jubu-tape.png" alt="Tape com o nome de Júlia Bulhões escrito">             
+          </div>          
+          <div class="text-xl mt-20 playfair hidden lg:block">
             <h3 class="mt-4">coordenadora de pós</h3>
             <h3 class="mt-4">editora</h3>
             <h3 class="mt-4">produtora</h3>  
@@ -80,12 +88,80 @@
           </div>          
         </div>   
         
-        <div class="max-w-sm mx-10 playfair text-xl">
+        <div class="md:max-w-md max-w-sm my-12 lg:my-0 lg:mx-8 playfair text-xl lg:text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat.
         </div>
   
-        <div>
-  
+        <div class="lg:ml-5">
+          <div>
+            <img class="mt-2 mb-4" src="/img/icons/computer-emoji.png" alt="ícone de computador">
+            <div class="flex mb-2">
+              <p class="syne font-bold lg:text-lg">Christian Dunker</p>
+              <p class="mx-1 syne font-bold lg:text-lg">|</p>
+              <p class="playfair text-base">2016 - agora</p>
+            </div>
+
+            <div class="flex mb-2">
+              <p class="syne font-bold lg:text-lg">Oliva.ag</p>
+              <p class="mx-1 syne font-bold lg:text-lg">|</p>
+              <p class="playfair text-base">2024</p>
+            </div>
+
+            <div class="flex mb-2">
+              <p class="syne font-bold lg:text-lg">Janela Comunicação</p>
+              <p class="mx-1 syne font-bold lg:text-lg">|</p>
+              <p class="playfair text-base">2023 - 2024</p>
+            </div>
+
+            <div class="flex mb-2">
+              <p class="syne font-bold lg:text-lg">TV Cultura</p>
+              <p class="mx-1 syne font-bold lg:text-lg">|</p>
+              <p class="playfair text-base">2021 - 2023</p>
+            </div>
+
+            <div class="flex mb-2">
+              <p class="syne font-bold lg:text-lg">Palafita Filmes</p>
+              <p class="mx-1 syne font-bold lg:text-lg">|</p>
+              <p class="playfair text-base">2019 - 2021</p>
+            </div>
+
+            <div class="flex mb-2">
+              <p class="syne font-bold lg:text-lg">Starbucks Brasil</p>
+              <p class="mx-1 syne font-bold lg:text-lg">|</p>
+              <p class="playfair text-base">2019 - 2020</p>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <img class="mt-2 mb-4" src="/img/icons/trophy-emoji.png" alt="ícone de troféu">
+            <div class="mb-2">
+              <p class="syne font-bold text-lg">Cannes Lions Glass Grand Prix</p>
+              <p class="playfair text-base">Campanha ”I Am” | Starbucks Brasil + VMLY&R | 2021</p>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <img class="mt-2 mb-4" src="/img/icons/graduation-emoji.png" alt="ícone de chapéu de formatura">
+            <div class="mb-4">
+              <p class="syne font-bold text-lg">Superior em Rádio e Televisão e Internet</p>
+              <p class="playfair text-base">Universidade Anhembi Morumbi | 2019 - 2022</p>
+            </div>
+
+            <div class="mb-4">
+              <p class="syne font-bold text-lg">Iniciação Científica</p>
+              <p class="playfair text-base">Universidade Anhembi Morumbi | 2021 - 2022</p>
+            </div>
+
+            <div class="mb-4">
+              <p class="syne font-bold text-lg">Curso de Color Grading no DaVinci Resolve</p>
+              <p class="playfair text-base">Escola Britância de Artes Criativas & Tecnologia | 2024</p>
+            </div>
+
+            <div>
+              <p class="syne font-bold text-lg">Curso de Produção Executiva</p>
+              <p class="playfair text-base">Escola Britância de Artes Criativas & Tecnologia | 2024</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -94,12 +170,14 @@
       <p class="playfair text-6xl text-white font-bold mb-10">me chame pra conversar :)</p>
       <img src="/img/tape-projetos-juntos.png" alt="Tape escrito vamos fazer um projeto juntos">
       <div class="flex">
-        <a class="ease-in-out duration-300" href="https://www.behance.net/jubulhoes" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8" src="/img/icons/behance.png" alt="Ícone do Behance"></a>
-        <a href="https://www.linkedin.com/in/j%C3%BAliabulh%C3%B5es/" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8" src="/img/icons/linkedin.png" alt="Ícone do Linkedin"></a>
-        <a href="https://www.instagram.com/jubu.mp4/" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8" src="/img/icons/instagram.png" alt="Ícone do Instagram"></a>
-        <a href="https://www.tiktok.com/@jubu.mp4?lang=pt-BR" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8" src="/img/icons/tiktok.png" alt="Ícone do Tiktok"></a>
-        <a href="mailto:contato.jubu@gmail.com" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8" src="/img/icons/mail.png" alt="Ícone do Tiktok"></a>
+        <a href="https://www.behance.net/jubulhoes" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/behance.png" alt="Ícone do Behance"></a>
+        <a href="https://www.linkedin.com/in/j%C3%BAliabulh%C3%B5es/" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/linkedin.png" alt="Ícone do Linkedin"></a>
+        <a href="https://www.instagram.com/jubu.mp4/" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/instagram.png" alt="Ícone do Instagram"></a>
+        <a href="https://www.tiktok.com/@jubu.mp4?lang=pt-BR" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/tiktok.png" alt="Ícone do Tiktok"></a>
+        <a href="mailto:contato.jubu@gmail.com" target="_blank" rel="noopener noreferrer"><img class="w-12 mx-8 hover:scale-125 hover:ease-in-out hover:duration-300 transition" src="/img/icons/mail.png" alt="Ícone do Tiktok"></a>
     </div>
     </section>
 </body>
+
+<script src="/js/index.js"></script>
 </html>
