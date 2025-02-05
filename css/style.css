@@ -22,8 +22,54 @@
     background-color: var(--yellow);
 }
 
+.z-social {
+    z-index: 2000;
+}
+
 .main-wrapper {
     height: 100vh;
+}
+
+.icon-size {
+    max-width: 60px;
+}
+
+.icon-size-sm {
+    max-width: 30px;
+}
+
+.icon-margin {
+    margin-top: 8em;
+}
+
+.icon-responsive {
+    top: auto;
+}
+
+.tape-left {
+    bottom: -10px;
+    left: -10px;
+}
+
+.tape-right {
+    bottom: -15px;
+    right: -10px;
+}
+
+.tape-mobile {
+    max-width: 100px;
+}
+
+.tape-mobile-2 {
+    max-width: 150px;
+}
+
+.jubu-tape {
+    bottom: -40px;
+}
+
+.email-margin {
+    margin-top: 6em;
 }
 
 .bona-nova {
@@ -32,4 +78,53 @@
 
 .syne {
     font-family: "Syne", serif;
+}
+
+.arrow {
+    animation: pulse-animation 1s infinite;
+}
+
+.icon-animation {
+    transition: all .3s ease;
+}
+
+.icon-animation:hover {
+    scale: 1.2;
+    rotate: -7deg;
+}
+
+/* Animation */
+
+@keyframes pulse-animation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+      opacity: .8;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+/* Responsive */
+
+@media (min-width: 768px) {
+    .jubu-tape {
+        left: 140px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .icon-responsive {
+        top: 50% !important;
+    }
+
+    .tape-mobile, .tape-mobile-2 {
+        max-width: 200px;
+    }
+
+    .jubu-tape {
+        left: 0px !important;
+    }
 }
