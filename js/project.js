@@ -5,7 +5,7 @@
         opacity: 0,
     }, {
         opacity: 1,
-        stagger: 0.5
+        stagger: 0.25
     });
 
     carouselPics.delay(.8)
